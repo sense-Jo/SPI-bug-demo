@@ -1,0 +1,5 @@
+# Copyright (c) 2019 Linaro Limited
+# SPDX-License-Identifier: Apache-2.0
+
+config SHIELD_LIS2DW12
+	def_bool $(shields_list_contains,lis2dw12)

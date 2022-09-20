@@ -1,0 +1,14 @@
+/ {
+	aliases {
+	};
+};
+
+&arduino_spi {
+    cs-gpios = <&arduino_header 14 0>;			/* D8 */
+
+    movement0: lis2dw12@0 {
+		compatible = "st,lis2dw12";
+		spi-max-frequency = <1000000>;
+		reg = <0>;
+	};
+};
