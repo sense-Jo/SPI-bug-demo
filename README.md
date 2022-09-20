@@ -29,4 +29,5 @@ After power-on, the NUCLEO LED2 flashes shortly, indicating that the LIS12DW12 i
 After two seconds, LED2 lights up and stays on; indicating that the application hangs in the sensor-reading-phase.
 
 When attaching the Debugger using `west attach`, a backtrace (type `bt`) shows the following:
-![screenshot of GDB](/doc/gdb-output.png)
+![screenshot of GDB](/doc/gdb-output_2.png)
+![screenshot of GDB](/doc/gdb-output_1.png)
