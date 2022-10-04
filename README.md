@@ -3,6 +3,7 @@
 ### Description
 
 Demonstrates a bug in the Zephyr SPI implementation on STM32WL. Whether other STM32 platforms are affected is still unknown.
+The corresponding issue is https://github.com/zephyrproject-rtos/zephyr/issues/50426.
 
 
 ### Reproducing the bug
